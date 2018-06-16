@@ -14,17 +14,7 @@ public class TestMyController extends AbstractVerticle {
     public void ok() throws Exception {
         //String result = sendGet("https://www.binance.com/api/v3/ticker/price?symbol=BTCUSDT");
         String result = sendGet("http://0.0.0.0:8080/api/tercero?mode=gusgus");
-        assertTrue("Este es un mensaje", result.length() <1);
-	logger.info(result);
-
-
-        result = sendGet("http://0.0.0.0:8080/api/tercero?mode=gusgus2");
-        assertTrue("Este es un mensaje", result.length() >1);
-        logger.info(result);
-
-        result = sendGet("http://0.0.0.0:8080/api/tercero?mode=abcabc");
-        assertTrue("Este es un mensaje", result.length() >1);
-        logger.info(result);
+        assertTrue(false);
 
 
 
