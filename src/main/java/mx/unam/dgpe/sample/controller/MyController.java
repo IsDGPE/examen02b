@@ -1,4 +1,4 @@
-package mx.unam.dgpe.sample.controller;
+ package mx.unam.dgpe.sample.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -19,7 +19,7 @@ public class MyController extends AbstractVerticle {
     public static String pba;
 
     public void start(Future<Void> fut) {
-        logger.info("Inicializando Vertical");
+        logger.info("Inicializando Vertical 2");
         Router router = Router.router(vertx);
         //router.route("/*").handler(StaticHandler.create("assets")); // para invocar asi: http://localhost:8080/index.html
         // el directorio "upload-folder" será creado en la misma ubicación que el jar fue ejecutado
